@@ -5,7 +5,8 @@ keywords: null
 author: Sokny Artemis
 language: zh
 timezone: 'Asia/Shanghai'
-url: https://github.com/SoknyArtemis/soknyartemis
+url: https://soknyartemis.github.io/soknyartemis/
+root: /soknyartemis/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
