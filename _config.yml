@@ -5,8 +5,8 @@ keywords: null
 author: Sokny Artemis
 language: zh
 timezone: 'Asia/Shanghai'
-url: https://soknyartemis.github.io/soknyartemis/
-root: /soknyartemis/
+url: https://sokny.pages.dev/
+root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -61,4 +61,6 @@ exclude: null
 ignore: null
 theme: vivia
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/SoknyArtemis/soknyartemis.git
+  branch: main
