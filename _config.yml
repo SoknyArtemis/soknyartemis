@@ -1,11 +1,11 @@
 title: Sokny's Blog
 subtitle: '星华辉月的博客'
-description: "Welcome to Sokny's persional blog"
+description: "Welcome to Sokny's persional blog "
 keywords: null
 author: Sokny Artemis
 language: zh
 timezone: 'Asia/Shanghai'
-url: https://sokny.pages.dev/
+url: https://sokny.pages.dev
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null

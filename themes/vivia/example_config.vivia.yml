@@ -8,7 +8,7 @@ rss: /atom.xml
 home:
   style: default           # default, detail
 
-favicon: /favicon.png            # Path to the custom favicon relative to /source (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
+favicon:                   # Path to the custom favicon relative to /source (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
 
 # Banner
 banner:
@@ -22,22 +22,20 @@ hue: 250                         # The hue of the theme color (e.g. red: 0, oran
                                  # Visit `saicaca.github.io/vivia-preview` to preview the theme color
 
 # Personal info
-avatar: /avatar.jpg                            # Path to the avatar image relative to /source
-author: Sokny
-subtitle: 歡迎來到星華輝月的博客！/n 這裏好像沒什麽東西，隨著時間增加應該會漸漸填滿的吧s
+avatar:                             # Path to the avatar image relative to /source
+author: Your Name
+subtitle: This is the subtitle
 links:
-  - name: GitHub
-    icon: fa-brands fa-github
-    url: https://github.com/SoknyArtemis/
   - name: Twitter
     icon: fa-brands fa-twitter      # Find icon codes at https://fontawesome.com/search
-    url: https://x.com/SoknyArtemis
+    url: https://twitter.com
   - name: Steam
     icon: fa-brands fa-steam
     url: https://store.steampowered.com
-  - name: Bilibili
-    icon: fa-brands fa-bilibili
-    url: https://space.bilibili.com/476428057
+  - name: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com
+
 # Sidebar
 sidebar:
   widgets:                 # Plugins to be enabled (profile, category, tag, archive, recent_posts)
@@ -74,6 +72,9 @@ comment:
     path: location.pathname
     lang:
     # See also: https://github.com/imaegoo/twikoo
+  waline:
+    enable: false          # Enable Waline comment system
+    serverURL: 
 
 #Analytics
 gauges_analytics: false
