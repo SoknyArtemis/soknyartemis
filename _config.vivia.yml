@@ -14,7 +14,7 @@ favicon: /favicon.png            # Path to the custom favicon relative to /sourc
 banner:
   enable: true                  # Display banner
   url: /banner.jpg                           # Path to the banner image relative to /source. Web url is also supported
-  position: center               # Specifies the alignment of the image, see the "object-position" property in CSS
+  position: top               # Specifies the alignment of the image, see the "object-position" property in CSS
   onAllPages: true               # Display banner on all pages instead of only the home page
 
 # Appearance
