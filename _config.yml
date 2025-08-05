@@ -62,5 +62,5 @@ ignore: null
 theme: vivia
 deploy:
   type: git
-  repo: https://github.com/SoknyArtemis/soknyartemis.git
+  repo: git@github.com:SoknyArtemis/soknyartemis.git
   branch: main

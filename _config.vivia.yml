@@ -8,7 +8,7 @@ rss: /atom.xml
 home:
   style: default           # default, detail
 
-favicon: /favicon.png            # Path to the custom favicon relative to /source (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
+favicon: https://sokny.pages.dev/favicon.png
 
 # Banner
 banner:
@@ -22,7 +22,7 @@ hue: 250                         # The hue of the theme color (e.g. red: 0, oran
                                  # Visit `saicaca.github.io/vivia-preview` to preview the theme color
 
 # Personal info
-avatar: /avatar.jpg                            # Path to the avatar image relative to /source
+avatar: https://sokny.pages.dev/avatar.jpg                            # Path to the avatar image relative to /source
 author: Sokny
 subtitle: 歡迎來到星華輝月的博客！/n 這裏好像沒什麽東西，隨著時間增加應該會漸漸填滿的吧s
 links:
