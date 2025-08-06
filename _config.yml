@@ -59,8 +59,30 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: vivia
+theme: redefine
 deploy:
   type: git
   repo: git@github.com:SoknyArtemis/soknyartemis.git
   branch: main
+
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# hexo-all-minifier
+all_minifier: true
