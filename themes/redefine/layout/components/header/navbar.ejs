@@ -35,9 +35,9 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="<%= hasSubmenus ? 'has-dropdown' : (isActive ? 'active' : '') %>"
-                                   href="<%= linkHref %>"
-                                        <%= onClickAction %>>
+                                <a class="<%- hasSubmenus ? 'has-dropdown' : (isActive ? 'active' : '') %>"
+                                   href="<%- linkHref %>"
+                                        <%- onClickAction %>>
                                     <%- iconClass %>
                                     <%= linkText %>
                                     <%- dropdownIcon %>
@@ -98,9 +98,9 @@
                         let drawerNavbarItemClass = hasSubmenus ? 'drawer-navbar-item-sub' : 'drawer-navbar-item';
                     %>
 
-                    <li class="<%= drawerNavbarItemClass %> text-base my-1.5 flex flex-col w-full">
+                    <li class="<%- drawerNavbarItemClass %> text-base my-1.5 flex flex-col w-full">
                         <% if (hasSubmenus) {%>
-                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full <%= isActive ? 'active' : '' %>"
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full <%- isActive ? 'active' : '' %>"
                              navbar-data-toggle="submenu-<%= i %>"
                         >
                             <span>
@@ -111,14 +111,14 @@
                             <% } %>
                         </div>
                         <% } else { %>
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full <%= isActive ? 'active' : '' %>"
-                           href="<%= linkPath %>"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full <%- isActive ? 'active' : '' %>"
+                           href="<%- linkPath %>"
                         >
                             <span>
                                 <%= linkText %>
                             </span>
                             <% if (iconClass) { %>
-                                <i class="<%= iconClass %> fa-sm fa-fw"></i>
+                                <i class="<%- iconClass %> fa-sm fa-fw"></i>
                             <% } %>
                         </a>
                         <% } %>
@@ -160,4 +160,3 @@
     <div class="window-mask"></div>
 
 </header>
-
