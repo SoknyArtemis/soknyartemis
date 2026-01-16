@@ -142,7 +142,7 @@ home_banner:
       '我們不能理解，觸手不可得的幸福',
       '如果我們不能改變世界，也還請世界不要輕易改變我們',
       '如果墜落的所有東西都會若雨般緩緩流落，那誰的手中都不會剩下什麼',
-      '大可不必為昨日的精力敝帚自珍，因為明日的前面今日永存',
+      '大可不必為昨日的經歷敝帚自珍，因為明日的前面今日永存',
       '與女沐兮咸池，曦女髮兮陽之阿；望美人兮未來，臨風怳兮好歌'
     ] # subtitle text, array
     hitokoto:  # 一言配置
@@ -210,9 +210,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
-    Archives:
-      path: /archives 
-      icon: fa-regular fa-archive
+    About: 
+      path: /about
+      icon: fa-regular fa-user
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
@@ -239,9 +239,9 @@ home:
       分類:
         path: /categories
         icon: fa-regular fa-folder
-      關於我: 
-        path: /about
-        icon: fa-regular fa-user
+      歸檔:
+        path: /archives 
+        icon: fa-regular fa-archive
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
@@ -421,7 +421,7 @@ plugins:
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
     enable: true # Whether to enable
-    type: fixed # fixed, mini
+    type: mini # fixed, mini
     audios:
       - name: 桜木の下で # audio name
         artist: Whisper Records # audio artist
