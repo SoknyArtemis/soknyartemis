@@ -184,6 +184,7 @@ home_banner:
     # Social links
     links:
       github: https://github.com/SoknyArtemis/
+      email: mailto:SoknyArtemis@outlook.com
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
@@ -210,7 +211,13 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
-    About: 
+    文檔:
+      path: /docs
+      icon: fa-regular fa-file
+    links:
+      path: /links
+      icon: fa-regular fa-link
+    About:
       path: /about
       icon: fa-regular fa-user
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
@@ -245,7 +252,7 @@ home:
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
-  excerpt_length: 200 # Max length of article excerpt
+  excerpt_length: 300 # Max length of article excerpt
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
@@ -381,7 +388,7 @@ footer:
   # Show website running time
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: '<i class="fa-solid fa-heart" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2025/08/03
   # Site statistics
@@ -420,13 +427,13 @@ plugins:
     enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     type: mini # fixed, mini
     audios:
-      - name: 桜木の下で # audio name
-        artist: Whisper Records # audio artist
-        url: http://music.163.com/song/media/outer/url?id=863227.mp3 # audio url
-        cover: https://p1.music.126.net/-qRb3GK0DtND0rEOxFnIQg==/109951163841299978.jpg?param=200y200 # audio cover url
+      - name: # audio name
+        artist: # audio artist
+        url: # audio url
+        cover: # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
@@ -470,3 +477,7 @@ developer:
   # Whether to enable developer mode (only for developers who want to modify the theme source code, not for ordinary users)
   enable: false
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+#友情链接
+# 臨時修復，給一個空的列表
+links: []

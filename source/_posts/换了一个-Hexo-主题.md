@@ -1,5 +1,6 @@
 ---
 title: 换了一个 Hexo 主题
+categories: 碎碎念
 date: 2025-08-06 15:00:00
 ---
 
