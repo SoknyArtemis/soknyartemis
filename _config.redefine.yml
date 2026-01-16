@@ -184,7 +184,7 @@ home_banner:
     # Social links
     links:
       github: https://github.com/SoknyArtemis/
-      email: mailto:SoknyArtemis@outlook.com
+      email: SoknyArtemis@outlook.com
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
