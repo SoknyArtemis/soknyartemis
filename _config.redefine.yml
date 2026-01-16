@@ -184,9 +184,6 @@ home_banner:
     # Social links
     links:
       github: https://github.com/SoknyArtemis/
-      twitter: https://x.com/SoknyArtemis
-      steam: https://store.steampowered.com
-      bilibili: https://space.bilibili.com/476428057
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
@@ -213,7 +210,7 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
-    Archives: 
+    Archives:
       path: /archives 
       icon: fa-regular fa-archive
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
@@ -232,14 +229,17 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
+    first_item: memu # First item in sidebar. menu, info
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      Tags: 
+      標簽:
         path: /tags 
         icon: fa-regular fa-tags
-      About: 
+      分類:
+        path: /categories
+        icon: fa-regular fa-folder
+      關於我: 
         path: /about
         icon: fa-regular fa-user
   # Article date format
@@ -284,7 +284,7 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label: 
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
@@ -420,13 +420,13 @@ plugins:
     enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: 桜木の下で # audio name
+        artist: Whisper Records # audio artist
+        url: http://music.163.com/song/media/outer/url?id=863227.mp3 # audio url
+        cover: https://p1.music.126.net/-qRb3GK0DtND0rEOxFnIQg==/109951163841299978.jpg?param=200y200 # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
