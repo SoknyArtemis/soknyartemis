@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/favicon.png
+  favicon: /favicon.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/avatar.jpg
+  avatar: /avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -131,8 +131,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/banner.jpg # light mode
-    dark: /images/banner.jpg # dark mode
+    light: /banner.jpg
+    dark: /banner.jpg
   # Home banner title
   title: I'm Sokny Artemis
   # Home banner subtitle
@@ -214,7 +214,7 @@ navbar:
     文檔:
       path: /docs
       icon: fa-regular fa-file
-    Links:
+    links:
       path: /links
       icon: fa-regular fa-link
     About:
@@ -236,7 +236,7 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
+    first_item: memu # First item in sidebar. menu, info
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
@@ -249,7 +249,6 @@ home:
       歸檔:
         path: /archives 
         icon: fa-regular fa-archive
-
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
@@ -393,9 +392,9 @@ footer:
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2025/08/03
   # Site statistics
-  statistics: true # show site statistics or not (total articles, total words)
+  statistics: false # show site statistics or not (total articles, total words)
   # Footer message
-  customize:
+  customize: ''
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
@@ -425,11 +424,11 @@ inject:
 plugins:
   # RSS feed. Requires hexo-generator-feed (npm i hexo-generator-feed). See https://github.com/hexojs/hexo-generator-feed
   feed:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
     enable: false # Whether to enable
-    type: fixed # fixed, mini
+    type: mini # fixed, mini
     audios:
       - name: # audio name
         artist: # audio artist
