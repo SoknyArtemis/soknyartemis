@@ -211,15 +211,18 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
+    説説:
+      path: /essays
+      icon: fa-regular fa-comment-dots
     文檔:
       path: /docs
-      icon: fa-regular fa-file
-    Links:
-      path: /links
-      icon: fa-regular fa-link
+      icon: fa-regular fa-book
     About:
-      path: /about
       icon: fa-regular fa-user
+      submenus:
+        友情鏈接: /about/links
+        我: /about/me
+        Github: https://github.com/SoknyArtemis/soknyartemis
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
@@ -232,28 +235,34 @@ navbar:
 # HOME PAGE ARTICLE SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/home
 home:
-  # Sidebar settings
+  # Sidebar settingss
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement:   Welcome to my Blog ! # Announcement text
+    announcement: "Welcome to my Blog !"
+# Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       標簽:
         path: /tags 
         icon: fa-regular fa-tags
-      分類:
+      類別:
         path: /categories
         icon: fa-regular fa-folder
       歸檔:
         path: /archives 
         icon: fa-regular fa-archive
-
+      照片:
+        path: /masonry
+        icon: fa-regular fa-image
+      文件:
+        path: /files
+        icon: fa-regular fa-file
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
-  excerpt_length: 300 # Max length of article excerpt
+  excerpt_length: 200 # Max length of article excerpt
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
@@ -455,7 +464,7 @@ page_templates:
   # Friend Links page column number
   friends_column: 2
   # Tags page style
-  tags_style: blur # blur, cloud
+  tags_style: cloud # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

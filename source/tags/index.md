@@ -1,4 +1,5 @@
 ---
 title: tags
 date: 2026-01-16 17:01:31
+template: tags
 ---
