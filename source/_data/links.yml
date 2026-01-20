@@ -1,0 +1,7 @@
+- links_category: 鳴謝
+  has_thumbnail: false
+  list:
+      - name: Redefine
+        link: https://redefine.ohevan.com/
+        description: Redefine Hexo theme
+        avatar: https://redefine.ohevan.com/images/redefine-favicon.svg

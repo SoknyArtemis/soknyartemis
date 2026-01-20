@@ -222,7 +222,6 @@ navbar:
       submenus:
         友情鏈接: /about/links
         我: /about/me
-        Github: https://github.com/SoknyArtemis/soknyartemis
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
