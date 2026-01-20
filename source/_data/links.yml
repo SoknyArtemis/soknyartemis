@@ -1,7 +1,19 @@
 - links_category: 鳴謝
   has_thumbnail: false
   list:
+      - name: Hexo
+        link: https://hexo.io/
+        description: Hexo is a fast, simple and powerful blog framework.
+        avatar: https://avatars.githubusercontent.com/u/6375567?s=48&v=4
       - name: Redefine
         link: https://redefine.ohevan.com/
         description: Redefine Hexo theme
         avatar: https://redefine.ohevan.com/images/redefine-favicon.svg
+
+- links_category: 關於
+  has_thumbnail: false
+  list:
+      - name: Github 倉庫
+        link: https://github.com/SoknyArtemis/soknyartemis/
+        description: Sókny's Blog.
+        avatar: /images/avatar.webp

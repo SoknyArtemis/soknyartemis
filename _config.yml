@@ -94,3 +94,7 @@ abbrlink:
   drafts: false   # Whether to generate abbrlink for drafts. (false in default)
   force: true    # Enable force mode. In this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had an abbrlink. (false in default)
   writeback: true # Whether to write changes to front-matters back to the actual markdown files. (true in default)
+
+# 自動生成 sitemap
+sitemap:
+path: sitemap.xml

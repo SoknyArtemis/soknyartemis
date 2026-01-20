@@ -99,7 +99,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/redefine-og.webp  # default og:image
+    image: /images/avatar.webp  # default og:image
     description: 悲莫悲兮生別離，樂莫樂兮新相知。歡迎來到 Sokny 的博客！
   # Google Analytics
   google_analytics:
