@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/favicon.png
+  favicon: /images/favicon.webp
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/avatar.jpg
+  avatar: /images/avatar.webp
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -76,7 +76,7 @@ global:
   # Scroll progress
   scroll_progress:
     bar: false # progress bar
-    percentage: true # percentage
+    percentage: false # percentage
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
@@ -93,7 +93,7 @@ global:
   # Side tools settings
   side_tools:
     # Whether to enable gear rotation animation for settings button
-    gear_rotation: true
+    gear_rotation: false
     # Whether to auto expand tools list on page load
     auto_expand: false
   # Whether to enable open graph
@@ -131,8 +131,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/banner.jpg # light mode
-    dark: /images/banner.jpg # dark mode
+    light: /images/banner.webp # light mode
+    dark: /images/banner.webp # dark mode
   # Home banner title
   title: Sókny Artemis
   # Home banner subtitle
