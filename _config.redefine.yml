@@ -100,7 +100,7 @@ global:
   open_graph:
     enable: true
     image: /images/avatar.webp  # default og:image
-    description: 悲莫悲兮生別離，樂莫樂兮新相知。歡迎來到 Sokny 的博客！
+    description: 悲莫悲兮生別離，樂莫樂兮新相知 - 歡迎來到 Sokny 的博客！
   # Google Analytics
   google_analytics:
     enable: true # Whether to enable Google Analytics

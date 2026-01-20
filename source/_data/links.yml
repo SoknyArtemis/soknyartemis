@@ -1,19 +1,27 @@
+- links_categoy: 朋友
+  has_thumbnail: false
+  list:
+    - name: 三月Mitsuki3
+      link: https://mitsuki3.com/
+      description: 欢迎来到三月的个人网站
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1009564557&spec=100&v=0.9089034435881068
+
 - links_category: 鳴謝
   has_thumbnail: false
   list:
-      - name: Hexo
-        link: https://hexo.io/
-        description: Hexo is a fast, simple and powerful blog framework.
-        avatar: https://avatars.githubusercontent.com/u/6375567?s=48&v=4
-      - name: Redefine
-        link: https://redefine.ohevan.com/
-        description: Redefine Hexo theme
-        avatar: https://redefine.ohevan.com/images/redefine-favicon.svg
+    - name: Hexo
+      link: https://hexo.io/
+      description: Hexo is a fast, simple and powerful blog framework.
+      avatar: https://avatars.githubusercontent.com/u/6375567?s=48&v=4
+    - name: Redefine
+      link: https://redefine.ohevan.com/
+      description: Redefine Hexo theme
+      avatar: https://redefine.ohevan.com/images/redefine-favicon.svg
 
 - links_category: 其它
   has_thumbnail: false
   list:
-      - name: Github 倉庫
-        link: https://github.com/SoknyArtemis/soknyartemis/
-        description: Sókny's Blog.
-        avatar: /images/avatar.webp
+    - name: Github 倉庫
+      link: https://github.com/SoknyArtemis/soknyartemis/
+      description: Sókny's Blog.
+      avatar: /images/avatar.webp
