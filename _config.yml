@@ -95,10 +95,16 @@ abbrlink:
   force: true    # Enable force mode. In this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had an abbrlink. (false in default)
   writeback: true # Whether to write changes to front-matters back to the actual markdown files. (true in default)
 
-lazyload:
+webp_cloud_proxy:
   enable: true
-  onlypost: true # 是否只针对文章页
-  loadingImg: # 图片加载前的占位图
+  # the suffix of img type to use webp cloud service
+  convert_type_list: ["jpg", "jpeg", "png", "gif"]
+  # your site url
+  pre_url: https://keshane.moe
+  # webp cloud service proxy url
+  proxy_url: https://webp.keshane.moe
+  # the filter priority, see https://hexo.io/api/filter.html
+  priority: 10
 
 # 自動生成 sitemap
 sitemap:
