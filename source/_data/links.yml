@@ -4,12 +4,17 @@
     - name: 三月Mitsuki3
       link: https://mitsuki3.com/
       description: 欢迎来到三月的个人网站
-      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1009564557&spec=100&v=0.9089034435881068
+      avatar: https://esaimg.cdn1.vip/i/696faae807605_1768925928.webp
+    
+    - name: J-V-GillEasbaig
+      link: https://space.bilibili.com/359099688
+      description: （BiliBili）ᚷᚢᚦ:ᛊᚲᚨᛚ:ᚻᛖᛁᛗᛁᚾᚾ:ᚺᚱᛖᛁᚾᛊᚨ
+      avatar: https://esaimg.cdn1.vip/i/696fadd68f749_1768926678.webp
     
     - name: 西柠Centy
-      link: https://search.bilibili.com/upuser?keyword=%E8%A5%BF%E6%9F%A0centy&from_source=webtop_search&spm_id_from=333.1007&search_source=5
+      link: https://space.bilibili.com/99247601
       description: （Bilibili） GGST领域笨蛋
-      avatar: https://edgeoneimg.cdn.sn/i/696fa88f42198_1768925327.webp
+      avatar: https://esaimg.cdn1.vip/i/696fa88f42198_1768925327.webp
 
 - links_category: 倉庫
   has_thumbnail: false
@@ -17,11 +22,11 @@
     - name: Hexo
       link: https://hexo.io/
       description: Hexo is a fast, simple and powerful blog framework.
-      avatar: https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo-avatar.png
+      avatar: https://esaimg.cdn1.vip/i/696faab425b76_1768925876.png
     - name: Redefine
       link: https://redefine.ohevan.com/
       description: Redefine Hexo theme
-      avatar: https://redefine.ohevan.com/images/redefine-favicon.svg
+      avatar: https://esaimg.cdn1.vip/i/696fab785a694_1768926072.png
     - name: Sókny's Blog
       link: https://github.com/SoknyArtemis/soknyartemis/
       description: Sókny's Blog.
