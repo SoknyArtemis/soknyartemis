@@ -10,7 +10,7 @@
         description: Redefine Hexo theme
         avatar: https://redefine.ohevan.com/images/redefine-favicon.svg
 
-- links_category: 關於
+- links_category: 其它
   has_thumbnail: false
   list:
       - name: Github 倉庫

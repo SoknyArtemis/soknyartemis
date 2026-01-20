@@ -95,6 +95,12 @@ abbrlink:
   force: true    # Enable force mode. In this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had an abbrlink. (false in default)
   writeback: true # Whether to write changes to front-matters back to the actual markdown files. (true in default)
 
+lazyload:
+  enable: true
+  onlypost: true # 是否只针对文章页
+  loadingImg: # 图片加载前的占位图
+
 # 自動生成 sitemap
 sitemap:
 path: sitemap.xml
+

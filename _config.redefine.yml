@@ -220,7 +220,8 @@ navbar:
     About:
       icon: fa-regular fa-user
       submenus:
-        友情鏈接: /about/links
+        朋友們: /about/links
+        鳴謝: /about/thanks
         我: /about/me
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
