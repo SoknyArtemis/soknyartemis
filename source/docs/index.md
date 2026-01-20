@@ -1,5 +1,5 @@
 ---
-title: 文檔
+title: docs
 date: 2025-08-05
 layout: page
 ---
