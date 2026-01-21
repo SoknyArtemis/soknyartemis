@@ -1,22 +1,24 @@
-- links_categoy: 朋友們
+- links_category: 朋友們的網站
   has_thumbnail: false
   list:
     - name: 三月Mitsuki3
       link: https://mitsuki3.com/
       description: 欢迎来到三月的个人网站
       avatar: https://esaimg.cdn1.vip/i/696faae807605_1768925928.webp
-    
+
+- links_category: 朋友們的社交賬號
+  has_thumbnail: false
+  list:
     - name: J-V-GillEasbaig
       link: https://space.bilibili.com/359099688
-      description: （BiliBili）ᚷᚢᚦ:ᛊᚲᚨᛚ:ᚻᛖᛁᛗᛁᚾᚾ:ᚺᚱᛖᛁᚾᛊᚨ
+      description: （Bilibili）ᚷᚢᚦ:ᛊᚲᚨᛚ:ᚻᛖᛁᛗᛁᚾᚾ:ᚺᚱᛖᛁᚾᛊᚨ
       avatar: https://esaimg.cdn1.vip/i/696fadd68f749_1768926678.webp
-    
     - name: 西柠Centy
       link: https://space.bilibili.com/99247601
       description: （Bilibili） GGST领域笨蛋
       avatar: https://esaimg.cdn1.vip/i/696fa88f42198_1768925327.webp
 
-- links_category: 倉庫
+- links_category: Github 倉庫
   has_thumbnail: false
   list:
     - name: Hexo
