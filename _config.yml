@@ -108,6 +108,4 @@ webp_cloud_proxy:
 
 # 自動生成 sitemap
 sitemap:
-path: sitemap.xml
-
-google_site_verification: aHF33M-QQiymjs-chwC7SbFZeDJBzVaIsmRC2hiceiM
+  path: sitemap.xml
