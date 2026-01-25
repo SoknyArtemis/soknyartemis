@@ -1,0 +1,13 @@
+{
+  "userIgnoreFilters": [
+    "data/",
+    "node_modules/",
+    "public/",
+    "scaffolds/",
+    "themes/",
+    "_yaml_templates/"
+  ],
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "obsidian-imgs"
+}

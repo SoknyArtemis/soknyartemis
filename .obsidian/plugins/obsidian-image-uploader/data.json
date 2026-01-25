@@ -1,0 +1,9 @@
+{
+  "apiEndpoint": "https://sokny-img.pages.dev/upload?uploadNameType=short&uploadFolder=/posts",
+  "uploadHeader": "{ \"Authorization\": \"Bearer imgbed_9LULchFozMgU4rjHjYixCIenQgFQdrpw\" }",
+  "uploadBody": "{ \"file\": \"$FILE\" }",
+  "imageUrlPath": "0.src",
+  "baseUrl": "https://img.sokny.eu.org",
+  "maxWidth": 4096,
+  "enableResize": true
+}
