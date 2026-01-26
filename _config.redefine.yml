@@ -52,14 +52,14 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom chinese fonts
+      family: Source Han Sans VF # Font family
+      url: /source/font/SourceHanSans-VF.otf.woff2 # Font URL to CSS file
     # English fonts
     english: 
-      enable: false # Whether to enable custom english fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom english fonts
+      family: Source Han Sans VF # Font family
+      url: /source/font/SourceHanSans-VF.otf.woff2  # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
       enable: false # Whether to enable custom title fonts
@@ -312,9 +312,9 @@ articles:
       light: github # light mode theme, support: github, atom-one-light, default
       dark: vs2015 # dark mode theme, support: github-dark, monokai-sublime, vs2015, night-owl, atom-one-dark, nord, tokyo-night-dark, a11y-dark, agate
     font: # Custom font
-      enable: false # Whether to enable
-      family: # Font family
-      url: # Font URL to CSS file
+      enable: true # Whether to enable
+      family: Source Code Pro # Font family
+      url: https://fonts.font.im/css?family=Source+Code+Pro # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC

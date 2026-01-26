@@ -3,7 +3,7 @@ subtitle: 星華輝月的博客
 description: "悲莫悲兮生別離，樂莫樂兮新相知 - 歡迎來到星華輝月的博客！這裡有代碼、語言學和詩！"
 keywords: "星華輝月, 星华辉月, Sókny, Sokny, Blog, 博客"
 author: Sokny Artemis
-language: zh-TW
+language: zh
 timezone: 'Asia/Shanghai'
 url: https://sokny.eu.org
 root: /
@@ -109,3 +109,6 @@ webp_cloud_proxy:
 # 自動生成 sitemap
 sitemap:
   path: sitemap.xml
+
+marked:
+  smartypants: false
