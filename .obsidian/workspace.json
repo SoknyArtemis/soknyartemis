@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "记一次在-Windows-IIS-中配置-FTP-站点并为-Windows-防火墙添加例外规则"
             }
+          },
+          {
+            "id": "7576125f2a093ae5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ]
       }
@@ -183,6 +193,7 @@
   },
   "active": "86a785b652a4f78c",
   "lastOpenFiles": [
+    "source/_posts/记一次在-Windows-IIS-中配置-FTP-站点并为-Windows-防火墙添加例外规则.md",
     "db.json",
     "public/about/links/index.html",
     "public/about/links",
@@ -203,9 +214,7 @@
     "public/images/favicon.webp",
     "public/posts/896b.html",
     "public/posts/e7f2.html",
-    "public/posts/24c.html",
     "source/_posts/本間學美的古日日語語法速成教程 (初版).md",
-    "source/_posts/记一次在-Windows-IIS-中配置-FTP-站点并为-Windows-防火墙添加例外规则.md",
     "source/_posts/45².md",
     "source/_posts/不存在的天空.md",
     "source/_posts/薄荷水.md",

@@ -17,17 +17,17 @@ date: 2026-01-23 22:50:58
 按理说在现在的时代，在一个主流系统上开启一个主流的文件传输协议，应该并不难——笔者之前也是这么想的，直到自己真的动手，才发现自己错了，**WIndows 不管 IIS 还是防火墙，控制台都非常老旧，配置起来简直一步一个坑！** 所以写了这篇博客，是为吐槽，也是记录，又能为找到这篇文章的后人避坑：
 ### 开启 IIS
 
-控制面板 -> 程式集 -> 程序和功能 -> 开启或关闭 Windows 功能：
+控制面板 > 程式集 > 程序和功能 > 开启或关闭 Windows 功能：
 
 ![](https://img.sokny.eu.org/file/posts/V6h6qggZ.webp)
 
 弹出的窗口中勾选：
 - Internet Information Server 
-	- -> FTP 伺服器
-		- -> **FTP 伺服器**
-		- -> **FTP 扩充性**
-	- -> Web 管理工具
-		- -> **IIS 管理主控台**
+	- > FTP 伺服器
+		- > **FTP 伺服器**
+		- > **FTP 扩充性**
+	- > Web 管理工具
+		- > **IIS 管理主控台**
 			
 
 ![](https://img.sokny.eu.org/file/posts/xpB0dKnJ.webp)
@@ -43,7 +43,7 @@ date: 2026-01-23 22:50:58
 
 *如果你的 Windows 账户有密码，可以跳过这一步*
 
-设定 -> 账户 -> 家人与其他使用者 -> 将其他人新增至此电脑：
+设定 > 账户 > 家人与其他使用者 > 将其他人新增至此电脑：
 
 ![](https://img.sokny.eu.org/file/posts/gPJNgsN8.webp)
 
@@ -75,11 +75,11 @@ FTP 需要一整个文件夹，所以新建一个文件夹：
 
 #### 让此仓库可以用于 FTP：
 
-右键 -> 内容：
+右键 > 内容：
 
 ![](https://img.sokny.eu.org/file/posts/IRxddN5d.webp)
 
-顶部菜单点击：共用 -> 共用：
+顶部菜单点击：共用 > 共用：
 
 
 
@@ -95,7 +95,7 @@ FTP 需要一整个文件夹，所以新建一个文件夹：
 
 ### 在 IIS 新增 FTP 站台
 
-依次点击：「你的 PC 名字」 -> 站台 -> 新增 FTP 站台：
+依次点击：「你的 PC 名字」 > 站台 > 新增 FTP 站台：
 
 ![](https://img.sokny.eu.org/file/posts/va0nM6Z1.webp)
 
@@ -127,15 +127,15 @@ FTP 需要一整个文件夹，所以新建一个文件夹：
 
 开始吧：
 
-然后打开设置 -> 更新与安全性 -> Windows 安全性 -> 防火墙与网络防护：
+然后打开设置 > 更新与安全性 > Windows 安全性 > 防火墙与网络防护：
 
 ![](https://img.sokny.eu.org/file/posts/WiMvg1zy.webp)
 
-转到「防火墙与网络保护」 -> 「进阶设定」：
+转到「防火墙与网络保护」 > 「进阶设定」：
 
 ![](https://img.sokny.eu.org/file/posts/cfqQGk4i.webp)
 
-右键「输入规则」-> 点击「新建规则」：
+右键「输入规则」> 点击「新建规则」：
 
 ![](https://img.sokny.eu.org/file/posts/goRMjjlt.webp)
 
@@ -167,7 +167,7 @@ FTP 需要一整个文件夹，所以新建一个文件夹：
 
 经过笔者探索，原来是开这么多东西还不行，**如果是「被动模式」的话，还要设置 FTP 被动模式端口的范围，再把“svchost.exe“这个程序添加到白名单**
 
-还是要打开 IIS 控制台 -> FTP 防火墙支援：
+还是要打开 IIS 控制台 > FTP 防火墙支援：
 
 ![](https://img.sokny.eu.org/file/posts/bnBp7Kno.webp)
 
