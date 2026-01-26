@@ -23,11 +23,11 @@ date: 2026-01-23 22:50:58
 
 弹出的窗口中勾选：
 - Internet Information Server 
-	- > FTP 伺服器
-		- > **FTP 伺服器**
-		- > **FTP 扩充性**
-	- > Web 管理工具
-		- > **IIS 管理主控台**
+	- \> FTP 伺服器
+		- \> **FTP 伺服器**
+		- \> **FTP 扩充性**
+	- \> Web 管理工具
+		- \> **IIS 管理主控台**
 			
 
 ![](https://img.sokny.eu.org/file/posts/xpB0dKnJ.webp)
